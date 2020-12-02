@@ -1,0 +1,8 @@
+Type "sudo nano /boot/config.txt" to open the file as root
+
+then under the [pi4] row, write:
+dtoverlay=pi3-disable-wifi
+dtoverlay=pi3-disable-bt
+
+If you want to turn on wifi and bluetooth you can simply comment the above instructions or you can 
+delete them from the config.txt file.
