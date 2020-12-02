@@ -1,0 +1,7 @@
+In order to turn off your hdmi interface you must type this command in your bash session
+
+sudo /opt/vc/bin/tvservice -o
+
+If you want to turn on your hdmi then write
+
+sudo /opt/vc/bin/tvservice -p
