@@ -1,4 +1,4 @@
-# efficiency_settings
+# efficiency_settings for raspberry pi4
 Contains useful script and strings that help your raspberry pi efficiency
 
 I'm actually using my raspberry pi4 as a pi-hole server, so beacuse i only want to filter the dns request from the hosts belonged to the LAN, i want the maximum efficiency for my little SoC (the raspberry itself).
