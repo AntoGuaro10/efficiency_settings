@@ -1,0 +1,18 @@
+You must add this commands in the config.txt file of your machine; such file is tipically located in /boot/config.txt
+Type "sudo nano /boot/config.txt", then under the [pi4] row (not under [all] row!) you can write this lines:
+
+#Disable ethernet led
+dtparam=eth_led0=14
+dtparam=eth_led1=14
+
+#Disable pwr led
+dtparam=pwr_led_trigger=none
+dtparam=pwr_led_activelow=off
+
+#Disable activity led
+dtparam=act_led_trigger=none
+dtparam=act_led_activelow=off
+
+Ctrl+x, y, Enter to save the file and exit nano
+
+Then you must reboot your raspberry using: sudo reboot now
